@@ -6,6 +6,9 @@ import Box from "./components/Box";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Col, Row } from "reactstrap";
 import CardBox1 from "./components/CardBox1";
+import TableData from "./components/TableData";
+import Checkboxes from "./components/Checkboxes";
+import PaginationComp from "./components/PaginationComp";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -58,6 +61,9 @@ class App extends Component {
             <CardBox1 />
             <CardBox1 />
           </Carousel>
+        </div>
+        <div>
+          <TableData />
         </div>
       </>
     );
